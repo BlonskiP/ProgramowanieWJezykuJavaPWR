@@ -1,11 +1,12 @@
-
-package KnapsackSolvingAlgorithms;
-
+package KnapsackProblem.KnapsackSolvingAlgorithms;
+import KnapsackProblem.Item;
 import java.util.ArrayList;
 
 public abstract class KnapsackSolvingAlgorithm {
-    private String description;
-    public abstract String GetDescription(); // returns algorithm description
+    protected String description;
     public abstract KnapsackSolvingResult Solve(ArrayList<Item> items, int capacity);
+    public String GetDescription() {
+        return description;
+    }
 
 }
