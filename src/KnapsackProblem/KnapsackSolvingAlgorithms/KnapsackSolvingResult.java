@@ -3,17 +3,36 @@ import KnapsackProblem.Item;
 import java.util.ArrayList;
 
 public class KnapsackSolvingResult {
-    private ArrayList<Item> bestItems;
+    private ArrayList<Item> bagItems;
     private int bagValue=0;
     public KnapsackSolvingResult(ArrayList<Item> bag)
     {
         if(bag!=null){
-        for (Item item:bag
-             ) {
+            bagItems=bag;
+            countValue();
+        }
+
+    }
+
+    private void countValue() {
+        bagValue=0;
+        for (Item item:bagItems
+        ) {
             bagValue+=item.getValue();
         }
-        bestItems=bag;
     }
+
+    public KnapsackSolvingResult(KnapsackSolvingResult newResult)  {
+        bagItems=newResult.getBagItems();
+        countValue();
+
     }
+
+    public int getBagValue() {
+        return bagValue;
+    }
+
+    public ArrayList<Item> getBagItems(){ return this.bagItems; }
+
 
 }
