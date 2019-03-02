@@ -12,5 +12,13 @@ public abstract class KnapsackSolvingAlgorithm {
     public String GetDescription() {
         return description;
     }
-
+    protected boolean compareResults(KnapsackSolvingResult newResult)
+    {
+        if(newResult.getBagValue()>bestResult.getBagValue())
+        {
+            bestResult=new KnapsackSolvingResult(newResult);
+            return true;
+        }
+        return false;
+    }
 }

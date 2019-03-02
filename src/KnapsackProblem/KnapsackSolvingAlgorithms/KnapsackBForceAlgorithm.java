@@ -27,21 +27,13 @@ public class KnapsackBForceAlgorithm extends KnapsackSolvingAlgorithm {
         {
            KnapsackSolvingResult newResult = new KnapsackSolvingResult(bag);
            compareResults(newResult);
+           Item temp = bag.get(0);
            bag.remove(0);
-           subsetsCheck(bag);
-
         }
+
 
     }
 
-    private boolean compareResults(KnapsackSolvingResult newResult)
-    {
-        if(newResult.getBagValue()>bestResult.getBagValue())
-        {
-            bestResult=new KnapsackSolvingResult(newResult);
-            return true;
-        }
-        return false;
-    }
+
 
 }
