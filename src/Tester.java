@@ -10,12 +10,16 @@ public class Tester {
         bag.add(new Item(1,1));
         bag.add(new Item(3,2));
         bag.add(new Item(2,4));
-        bag.add(new Item(5,3));
+        bag.add(new Item(4,1));
+        bag.add(new Item(1,3));
+
 
 
         InstanceProblem problem= new InstanceProblem(bag,8);
         KnapsackBForceAlgorithm BF=new KnapsackBForceAlgorithm(problem);
-        BF.Solve().PrintResult();
+        KnapsackRSearchAlgorithm RS = new KnapsackRSearchAlgorithm(problem);
+        RS.Solve().PrintResult();
+      //  BF.Solve().PrintResult();
         problem.printItems();
         System.out.println(problem.getCapacity());
     }

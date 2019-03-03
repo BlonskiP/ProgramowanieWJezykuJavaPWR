@@ -7,7 +7,10 @@ public abstract class KnapsackSolvingAlgorithm {
     protected InstanceProblem problem;
     protected KnapsackSolvingResult bestResult;
     public abstract KnapsackSolvingResult Solve();
-    public KnapsackSolvingAlgorithm(InstanceProblem problem){this.problem=problem;}
+    public KnapsackSolvingAlgorithm(InstanceProblem problem){
+        this.problem=problem;
+        bestResult=new KnapsackSolvingResult();
+    }
 
     public String GetDescription() {
         return description;
