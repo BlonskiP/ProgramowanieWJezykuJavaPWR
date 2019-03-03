@@ -49,7 +49,7 @@ public class KnapsackSolvingResult {
             System.out.print(item.getValue()+" ");
 
         }
-        System.out.println("capacity:"+ bagWeight);
+        System.out.println("capacity used:"+ bagWeight);
         System.out.println("value:"+ bagValue);
 
     }

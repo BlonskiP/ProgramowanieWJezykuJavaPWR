@@ -20,7 +20,7 @@ public class KnapsackRSearchAlgorithm extends KnapsackSolvingAlgorithm {
         int randomItemIndex;
         Item tempItem;
         KnapsackSolvingResult newResult;
-        for(int i=0;i<100;i++)
+        for(int i=0;i<1000;i++)
         {
             newResult=new KnapsackSolvingResult();
             while(newResult.GetBagWeight()<=problem.getCapacity() && bag.size()>0)
