@@ -7,12 +7,15 @@ public class Tester {
 
     public static void main(String[] args) {
         ArrayList<Item> bag = new ArrayList<Item>();
-        for(int i=1;i<4;i++)
-        bag.add(new Item(i,i+1));
+        bag.add(new Item(1,1));
+        bag.add(new Item(3,2));
+        bag.add(new Item(2,4));
+        bag.add(new Item(5,3));
 
-        InstanceProblem problem= new InstanceProblem(bag,50);
+
+        InstanceProblem problem= new InstanceProblem(bag,8);
         KnapsackBForceAlgorithm BF=new KnapsackBForceAlgorithm(problem);
-        BF.Solve();
+        BF.Solve().PrintResult();
         problem.printItems();
         System.out.println(problem.getCapacity());
     }

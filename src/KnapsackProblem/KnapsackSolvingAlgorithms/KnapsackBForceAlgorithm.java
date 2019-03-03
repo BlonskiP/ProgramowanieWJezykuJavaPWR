@@ -23,17 +23,40 @@ public class KnapsackBForceAlgorithm extends KnapsackSolvingAlgorithm {
     }
 
     private void subsetsCheck( ArrayList<Item> bag){
-        if(bag.size()!=0) // check if empty
+        int numberOfSets=1<<bag.size(); //same as 2^bag.size() because there will be 2^n subsets
+        for(int i=0;i<numberOfSets;i++)
         {
-           KnapsackSolvingResult newResult = new KnapsackSolvingResult(bag);
-           compareResults(newResult);
-           Item temp = bag.get(0);
-           bag.remove(0);
+            //new subset
+            Item tempItem;
+            KnapsackSolvingResult newResult = new KnapsackSolvingResult();
+            for(int j=0; j < bag.size();j++)
+            {
+
+                int subSetBinaryCode=(i&(1<<j));
+                if(subSetBinaryCode>0)
+                {
+                    //fill up newBag
+                    tempItem=bag.get(j);
+                    if(newResult.GetBagWeight()+tempItem.getWeight()<=problem.getCapacity())
+                    newResult.AddNewItem(tempItem);
+                    else
+                        break;
+
+
+
+                }
+            }
+            //new Result
+
+            compareResults(newResult);
+           // newResult.PrintResult(); debug only
         }
+
+    }
 
 
     }
 
 
 
-}
+
