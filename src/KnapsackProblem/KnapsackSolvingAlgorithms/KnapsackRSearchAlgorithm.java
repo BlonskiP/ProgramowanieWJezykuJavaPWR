@@ -8,11 +8,18 @@ import java.util.Random;
 public class KnapsackRSearchAlgorithm extends KnapsackSolvingAlgorithm {
 
     private Random rnd  = new Random();
+	/**
+	Calls constructor of a base class, Sets description to "Random Search Algorithm"
+	*/
     public  KnapsackRSearchAlgorithm(InstanceProblem problem)
     {
         super(problem);
         description="Random Search Algorithm";
     }
+	/**
+	Implementation of Random Search Algorithm
+	@return best result given by rs Search
+	*/
     @Override
     public KnapsackSolvingResult Solve() {
         ArrayList<Item> bag= new ArrayList<>(problem.getBag());
