@@ -4,7 +4,9 @@ import KnapsackProblem.Item;
 
 import java.util.ArrayList;
 import java.util.Random;
-
+/**
+Extends SolvingAlgorith, Implements RS search
+*/
 public class KnapsackRSearchAlgorithm extends KnapsackSolvingAlgorithm {
 
     private Random rnd  = new Random();

@@ -2,14 +2,22 @@ package KnapsackProblem.KnapsackSolvingAlgorithms;
 import KnapsackProblem.Item;
 import java.util.ArrayList;
 
+/**
+Extends SolvingAlgorithm. Implements Brute Force search.
+*/
 public class KnapsackBForceAlgorithm extends KnapsackSolvingAlgorithm {
 
-
+	/**
+	Calls constructor of a base class, Sets description to "BruteForce Algorithm"
+	*/
     public KnapsackBForceAlgorithm(InstanceProblem problem)
     {
         super(problem);
         this.description="BruteForce Algorithm";
     }
+	/**
+	Implements BruteForce algorithm, with bit masks.
+	*/
     @Override
     public KnapsackSolvingResult Solve() {
         if(problem!= null){
@@ -21,7 +29,9 @@ public class KnapsackBForceAlgorithm extends KnapsackSolvingAlgorithm {
         else
         return null;
     }
-
+	/**
+	Check everySubSet of given Items and compares them with bestResult.
+	*/
     private void subsetsCheck( ArrayList<Item> bag){
         int numberOfSets=1<<bag.size(); //same as 2^bag.size() because there will be 2^n subsets
         for(int i=0;i<numberOfSets;i++)
