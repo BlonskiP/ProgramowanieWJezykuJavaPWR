@@ -9,6 +9,7 @@ public class KnapsackBForceAlgorithm extends KnapsackSolvingAlgorithm {
 
 	/**
 	Calls constructor of a base class, Sets description to "BruteForce Algorithm"
+     @param problem Instance of Knapsacproblem
 	*/
     public KnapsackBForceAlgorithm(InstanceProblem problem)
     {

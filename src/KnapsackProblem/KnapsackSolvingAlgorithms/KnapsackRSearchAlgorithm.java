@@ -12,6 +12,8 @@ public class KnapsackRSearchAlgorithm extends KnapsackSolvingAlgorithm {
     private Random rnd  = new Random();
 	/**
 	Calls constructor of a base class, Sets description to "Random Search Algorithm"
+     @param problem Instance of Knapsac Problem
+     @see InstanceProblem
 	*/
     public  KnapsackRSearchAlgorithm(InstanceProblem problem)
     {

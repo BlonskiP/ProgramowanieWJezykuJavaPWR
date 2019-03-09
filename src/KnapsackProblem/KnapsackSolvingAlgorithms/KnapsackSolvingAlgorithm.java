@@ -28,6 +28,8 @@ public abstract class KnapsackSolvingAlgorithm {
     public abstract KnapsackSolvingResult Solve();
 	/**
 	Creates a KnapsackSolvingAlgorithm instance, and first empty result as best result.
+	 @param problem Instance of Knapsack Problem
+	 @see InstanceProblem
 	*/
     public KnapsackSolvingAlgorithm(InstanceProblem problem){
         this.problem=problem;
@@ -44,6 +46,7 @@ public abstract class KnapsackSolvingAlgorithm {
 	Compares a result with bestResult.
 	If bestResult is wors that given result, given result will become the bestResult
 	@return True if given result is better than best.
+	 @param newResult is the result that we want to check if is better than the best found
 	*/
     protected boolean compareResults(KnapsackSolvingResult newResult)
     {

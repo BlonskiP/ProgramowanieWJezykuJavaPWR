@@ -7,7 +7,7 @@ public class Item {
 	/**
 	Name of Item. Example:"Banana"
 	*/
-	private string name;
+	private String name;
 	/**
 	Value of Item.
 	This value is used in algorithm to find out which Item sets are best for bag.
@@ -26,7 +26,7 @@ public class Item {
 	@param weight a weight of item. Cannot be null
 	@param name a name of item. 
 	*/
-    public Item(float value,int weight, string name){
+    public Item(float value,int weight, String name){
         this.value=value;
         this.weight=weight;
 		this.name=name;
@@ -36,7 +36,12 @@ public class Item {
 	*/
     public float getValue(){return value;}
 	/**
-	@retrun weight of item
+	@return weight of item
 	*/
     public float getWeight(){return weight;}
+
+	/**
+	 * @return name of item
+	 */
+	public String getName(){return  name;}
 }

@@ -21,6 +21,8 @@ public class InstanceProblem {
     private int capacity;
 	/**
 	This constructor creates InstanceProblem with given items and max Capacity
+	 @param bag list of all possible items in bag
+	 @param capacity max capacity of result
 	*/
     public InstanceProblem(ArrayList<Item> bag,  int capacity)
     {
@@ -42,7 +44,7 @@ public class InstanceProblem {
     {
         for (Item item:bag
              ) {
-            System.out.println("Value " + item.getValue() + " Weight: " + item.getWeight());
+            System.out.println(item.getName() + " Value " + item.getValue() + " Weight: " + item.getWeight());
 
         }
     }

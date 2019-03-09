@@ -26,9 +26,9 @@ public class KnapsackSolvingResult {
         bagItems=new ArrayList<Item>();
     }
 	/**
-	@parameter bag List of Items that Result will contain as choosen items.
-	Uses countValue to know how much Item bag weights and cost
-	@see countValue
+	@param bag List of Items that Result will contain as choosen items.
+	Uses countValue to know how much Item bag weights and costw
+     @param bag Complete list of items
 	*/
     public KnapsackSolvingResult(ArrayList<Item> bag)
     {
@@ -52,7 +52,8 @@ public class KnapsackSolvingResult {
         }
     }
 	/**
-	Copy constructor. 
+	Copy constructor.
+     @param newResult result to copy
 	*/
     public KnapsackSolvingResult(KnapsackSolvingResult newResult)  {
         bagItems=newResult.getBagItems();
@@ -77,7 +78,7 @@ public class KnapsackSolvingResult {
         System.out.println();
         for (Item item:bagItems
              ) {
-            System.out.print(item.name +" "item.getValue()+" "+item.getWeight);
+            System.out.print(item.getName()+" "+ item.getValue()+" "+item.getWeight());
 
         }
         System.out.println("capacity used:"+ bagWeight);
@@ -86,6 +87,7 @@ public class KnapsackSolvingResult {
     }
 	/**
 	Add new item to bag. Changes value and weight of bag.
+     @param item Item which we want to add to result bag.
 	*/
     public void AddNewItem(Item item)
     {
