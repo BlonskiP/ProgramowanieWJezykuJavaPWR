@@ -44,4 +44,9 @@ public class Item {
 	 * @return name of item
 	 */
 	public String getName(){return  name;}
+	@Override
+	public String toString()
+	{
+		return getName() +" "+ getWeight() + " " + getValue();
+	}
 }
