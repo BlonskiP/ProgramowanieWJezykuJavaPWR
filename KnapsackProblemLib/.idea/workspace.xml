@@ -6,61 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0175a69c-c1aa-4e0f-a850-991bb04a11a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgramowanieWJezykuJavaPWR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/Item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackBForceAlgorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackRSearchAlgorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/KnapsackSolvingAlgorithms/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KnapsackProblem/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Tester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackBForceAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackRSearchAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Tester.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0175a69c-c1aa-4e0f-a850-991bb04a11a0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -79,11 +25,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KnapsackProblem/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="726">
+              <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+              <folding>
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,12 +111,12 @@
         <option value="$PROJECT_DIR$/src/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/Item.java" />
         <option value="$PROJECT_DIR$/src/Tester.java" />
-        <option value="$PROJECT_DIR$/src/KnapsackProblem/Item.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackBForceAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackRSearchAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" />
+        <option value="$PROJECT_DIR$/src/KnapsackProblem/Item.java" />
       </list>
     </option>
   </component>
@@ -182,9 +132,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KnapsackProblem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnapsackProblemLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnapsackProblemLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,21 +280,22 @@
       <workItem from="1552089484204" duration="45000" />
       <workItem from="1552090080333" duration="1301000" />
       <workItem from="1552228090377" duration="188000" />
+      <workItem from="1552594241821" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12669000" />
+    <option name="totallyTimeSpent" value="13000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29339853" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -342,13 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KnapsackProblem/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -389,6 +371,17 @@
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KnapsackProblem/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          <folding>
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
           </folding>
         </state>
       </provider>
