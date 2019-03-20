@@ -34,8 +34,8 @@
                         <Label layoutX="397.0" layoutY="15.0" text="%ProblemItems" />
                         <Label layoutX="404.0" layoutY="197.0" text="%Result" />
                         <ListView fx:id="resultItemList" layoutX="300.0" layoutY="218.0" prefHeight="114.0" prefWidth="274.0" />
-                        <Label layoutX="126.0" layoutY="288.0" text="%BagWeight" />
-                        <Label layoutX="130.0" layoutY="312.0" text="%BagValue" />
+                        <Label fx:id="bagWeight" layoutX="126.0" layoutY="288.0" text="%BagWeight" />
+                        <Label fx:id="bagValue" layoutX="130.0" layoutY="312.0" text="%BagValue" />
                         <ListView fx:id="itemList" layoutX="302.0" layoutY="38.0" prefHeight="114.0" prefWidth="274.0" />
                         <ComboBox fx:id="comboBox" layoutX="10.0" layoutY="193.0" prefWidth="150.0" promptText="%ChooseAlg" />
                         <Label layoutX="20.0" layoutY="172.0" text="%Algorithm" />

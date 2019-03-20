@@ -43,6 +43,10 @@ public class Controller {
     @FXML
     private ComboBox ChangeLanguageCombo;
     @FXML
+    private Label bagWeight;
+    @FXML
+    private Label bagValue;
+    @FXML
     public void addItem()
     {
         Item item = new Item(Float.parseFloat(itemValueInput.getText()),Integer.parseInt(itemWeightInput.getText()),itemNameInput.getText());
@@ -72,15 +76,27 @@ public class Controller {
             Warehouse.maxCapacity = Integer.parseInt(maxCapacityInput.getText());
             Warehouse.KnapProblem=new InstanceProblem(Warehouse.ItemList,Warehouse.maxCapacity);
             if(setAlgorithms()) {
-                if(resultItemList.getItems().size()>0)
-                resultItemList.getItems().removeAll();
+
+                resultItemList.getItems().clear();
+
+
                 Warehouse.result = Warehouse.algorithm.Solve();
                 Warehouse.result.PrintResult();
+
                 for (Item item:Warehouse.result.getBagItems()
                      ) {
                     resultItemList.getItems().add(item);
 
                 }
+                resultItemList.refresh();
+                bagValue.setText(
+                        NationalizationManager.getResourceBundle().getString("BagValue") + " "
+                +Warehouse.result.getBagValue());
+
+                bagWeight.setText(
+                        NationalizationManager.getResourceBundle().getString("BagWeight")
+                               +" " +Warehouse.result.GetBagWeight());
+                Warehouse.result=null;
             }
         }
         else
