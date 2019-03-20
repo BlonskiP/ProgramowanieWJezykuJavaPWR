@@ -22,7 +22,7 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception{
         url = getClass().getResource("GUI.fxml");
         root = FXMLLoader.load(url, NationalizationManager.getResourceBundle());
-        primaryStage.setTitle("Hello World yourself");
+        primaryStage.setTitle("Knapsack GUI");
         scene=new BetterScene(root, 600, 400);
         primaryStage.setScene(scene);
 
