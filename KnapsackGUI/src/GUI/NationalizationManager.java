@@ -18,7 +18,7 @@ import java.util.SimpleTimeZone;
 import java.util.regex.Pattern;
 
 public class NationalizationManager {
-    public static String actualLang = "en-GB";
+    public static String actualLang = "pl-PL";
     private static Locale locale=new Locale(actualLang);
     private static ResourceBundle LR=ResourceBundle.getBundle("res/LR",locale);
     public static DateTimeFormatter  timeFormatter= DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withLocale(locale);

@@ -63,7 +63,7 @@ public class Controller {
 
         System.out.println("TEST COMPLETE");
         NationalizationManager.setLocal(code);
-        restoreValue();
+
 
     }
     @FXML
@@ -125,7 +125,7 @@ public class Controller {
         System.out.println("initialize");
        comboBox.setItems(algorithms);
        ChangeLanguageCombo.setItems(langs);
-      update();
+       update();
 
 
     }
@@ -133,7 +133,10 @@ public class Controller {
     {
         ChangeLanguageCombo.setValue(NationalizationManager.actualLang);
         System.out.println(NationalizationManager.timeFormatter.getLocale());
+        System.out.println(NationalizationManager.timeFormatter.format(Warehouse.today));
         todayDate.setText(NationalizationManager.timeFormatter.format(Warehouse.today));
+        itemNameInput.setText(Warehouse.tempItemName);
+        restoreValue();
     }
     public boolean setAlgorithms()
     {
