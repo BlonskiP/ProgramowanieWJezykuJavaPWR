@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        InstanceProblemGenerator gen=new InstanceProblemGenerator((long)313);
+
+        gen.generateProblem().printItems();
+
     }
 }

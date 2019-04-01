@@ -2,6 +2,7 @@
   <library name="KnapsackProblemSolutions">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../lab01/KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

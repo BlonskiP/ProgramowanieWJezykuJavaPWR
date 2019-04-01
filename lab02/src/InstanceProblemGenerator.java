@@ -1,6 +1,8 @@
 import KnapsackProblem.Item;
 import KnapsackProblem.KnapsackSolvingAlgorithms.InstanceProblem;
 import KnapsackProblem.KnapsackSolvingAlgorithms.KnapsackSolvingResult;
+
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class InstanceProblemGenerator {
@@ -8,28 +10,50 @@ public class InstanceProblemGenerator {
     // max cap - 128
     // max itemWeight - 16
     // max items - 16
-    public static InstanceProblem generateProblem(long seed)
+    private long seed;
+    public InstanceProblemGenerator(long seed){this.seed=seed;}
+    public  InstanceProblem generateProblem()
     {
         ArrayList<Item> itemList=new ArrayList<>();
-        long state=seed;
 
+        int capacity=(int)getNextNumber(100);
+        int numberOfItems=(int)getNextNumber(10);
+        if(capacity>30)capacity=(int)getNextNumber(100);
+        if(numberOfItems<5)numberOfItems=(int)getNextNumber(10);
+
+        for(int i=0;i<numberOfItems;i++)
+        {
+            float value=getNextNumber(10);
+            int weight=(int)getNextNumber(capacity%20);
+            String name="Item numer: "+i;
+
+            Item tempItem=new Item(value,weight,name);
+            itemList.add(tempItem);
+        }
         return new InstanceProblem(itemList,capacity);
 
     }
 
-    private static Result getNextNumber(long oldState, int a, int b, int m)
+    public long getNextNumber(int m2)
     {
-        long state=(a*oldState + b )%m;
-        boolean value=false;
-        if(state%2 >0)value=true;
-        Result newResult=new Result(state,value);
-        return newResult;
+        //m2 is result modulo
+        BigInteger a=new BigInteger("3141592653");
+        BigInteger b=new BigInteger("2718281829");
+        BigInteger m=new BigInteger("34359738368");
+        String result;
+        result = a.multiply(new BigInteger(Long.toString(seed))).toString();
+        a = new BigInteger(result);
+        result=(b.add(a).toString());
+        b = new BigInteger(result);
+        result=b.mod(m).toString();
+        b = new BigInteger(result);
+        seed = b.longValue();
+        result=b.mod(new BigInteger(Integer.toString(m2))).toString();
+
+
+
+        return Long.parseLong(result);
     }
 
 
-}
-class Result{
-    long state;
-    boolean value;
-    public Result(long givenState, boolean givevalue){this.state=state; this.value=value;}
 }
