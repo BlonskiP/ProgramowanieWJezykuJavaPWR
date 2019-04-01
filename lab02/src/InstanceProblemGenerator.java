@@ -6,10 +6,8 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class InstanceProblemGenerator {
-
-    // max cap - 128
-    // max itemWeight - 16
-    // max items - 16
+    // Based on Donald Knuth generator
+    //https://eduinf.waw.pl/inf/alg/001_search/0020.php
     private long seed;
     public InstanceProblemGenerator(long seed){this.seed=seed;}
     public  InstanceProblem generateProblem()
