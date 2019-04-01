@@ -8,7 +8,7 @@ public class ProblemSolverThread extends Thread {
         switch (algorithName){
             case "random":{break;}
             case "brute":{
-                loader=new AlgorithClassLoader("KnapsackBForceAlgorithm");
+                loader=new AlgorithClassLoader("classes.KnapsackBForceAlgorithm");
                 break;}
             default: System.out.println("Wrong algorithName!!");
         }
