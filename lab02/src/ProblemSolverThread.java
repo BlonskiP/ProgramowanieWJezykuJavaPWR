@@ -1,3 +1,5 @@
+import java.lang.reflect.InvocationTargetException;
+
 public class ProblemSolverThread extends Thread {
     InstanceProblemGenerator generator;
     AlgorithClassLoader loader;
@@ -8,13 +10,20 @@ public class ProblemSolverThread extends Thread {
         switch (algorithName){
             case "random":{break;}
             case "brute":{
-                loader=new AlgorithClassLoader("classes.KnapsackBForceAlgorithm");
+                loader=new AlgorithClassLoader("KnapsackProblem.KnapsackSolvingAlgorithms.KnapsackBForceAlgorithm",generator.generateProblem());
                 break;}
             default: System.out.println("Wrong algorithName!!");
         }
     }
     public void run()
     {
-        System.out.println("test complete");
+
+        try {
+            loader.Solve().PrintResult();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 }
