@@ -16,7 +16,7 @@ public class InstanceProblemGenerator {
 
         int capacity=(int)getNextNumber(100);
         int numberOfItems=(int)getNextNumber(10);
-        if(capacity>30)capacity=(int)getNextNumber(100);
+        while(capacity>30 || capacity%20==0)capacity=(int)getNextNumber(100);
         if(numberOfItems<5)numberOfItems=(int)getNextNumber(10);
 
         for(int i=0;i<numberOfItems;i++)
@@ -35,19 +35,25 @@ public class InstanceProblemGenerator {
     public long getNextNumber(int m2)
     {
         //m2 is result modulo
-        BigInteger a=new BigInteger("3141592653");
-        BigInteger b=new BigInteger("2718281829");
-        BigInteger m=new BigInteger("34359738368");
-        String result;
-        result = a.multiply(new BigInteger(Long.toString(seed))).toString();
-        a = new BigInteger(result);
-        result=(b.add(a).toString());
-        b = new BigInteger(result);
-        result=b.mod(m).toString();
-        b = new BigInteger(result);
-        seed = b.longValue();
-        result=b.mod(new BigInteger(Integer.toString(m2))).toString();
+        String result="";
+        try {
+            BigInteger a = new BigInteger("3141592653");
+            BigInteger b = new BigInteger("2718281829");
+            BigInteger m = new BigInteger("34359738368");
 
+            result = a.multiply(new BigInteger(Long.toString(seed))).toString();
+            a = new BigInteger(result);
+            result = (b.add(a).toString());
+            b = new BigInteger(result);
+            result = b.mod(m).toString();
+            b = new BigInteger(result);
+            seed = b.longValue();
+            result = b.mod(new BigInteger(Integer.toString(m2))).toString();
+        }
+        catch(Exception e)
+        {
+System.out.println(e.getCause());
+        }
 
 
         return Long.parseLong(result);
