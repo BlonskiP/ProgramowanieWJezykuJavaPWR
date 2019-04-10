@@ -24,4 +24,6 @@ public class Note {
     public void setNoteTitle(String noteTitle) {
         NoteTitle = noteTitle;
     }
+    @Override
+    public String toString(){return this.NoteTitle;}
 }

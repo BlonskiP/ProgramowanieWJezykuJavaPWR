@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f83f37a-9b88-4b50-85e7-4af711e7f90f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ChartBean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/GUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,32 +33,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14020.38558/FaceBeanBeanInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="207">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
               <folding>
-                <element signature="e#0#94925#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#BeanExample#0;class#BeanExample#0" />
+                <element signature="class#2645:2833" />
+                <element signature="e#3308#3309#0" expanded="true" />
+                <element signature="e#3351#3352#0" expanded="true" />
+                <element signature="e#1886#1939#1" />
+                <element signature="e#4358#4359#0" expanded="true" />
+                <element signature="e#898#927#1" />
+                <element signature="e#4417#4418#0" expanded="true" />
+                <element signature="method#setTitle#0;class#BeanExample#0" />
+                <element signature="e#3786#3787#0" expanded="true" />
+                <element signature="e#3825#3826#0" expanded="true" />
+                <element signature="docComment;method#propertyChange#0;class#BeanExample#0" />
+                <element signature="method#propertyChange#0;class#BeanExample#0" />
+                <element signature="method#addPropertyChangeListener#0;class#BeanExample#0" />
+                <element signature="method#removePropertyChangeListener#0;class#BeanExample#0" />
+                <element signature="docComment;method#vetoableChange#0;class#BeanExample#0" />
+                <element signature="method#vetoableChange#0;class#BeanExample#0" />
+                <element signature="e#4143#4196#1" />
+                <element signature="e#6754#6755#0" expanded="true" />
+                <element signature="e#4269#4325#1" />
+                <element signature="e#6883#6884#0" expanded="true" />
+                <element signature="docComment;method#setReadOnlyArea#0;class#BeanExample#0" />
+                <element signature="method#setReadOnlyArea#0;class#BeanExample#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
+        <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
+            <state relative-caret-position="238">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
-                <element signature="e#2344#2345#0" expanded="true" />
-                <element signature="e#2556#2557#0" expanded="true" />
-                <element signature="e#2615#2616#0" expanded="true" />
-                <element signature="e#2779#2780#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-                <element signature="e#4005#4006#0" expanded="true" />
-                <element signature="e#4655#4656#0" expanded="true" />
-                <element signature="e#4784#4785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="459">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
@@ -122,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" />
         <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" />
         <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" />
+        <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" />
       </list>
     </option>
   </component>
@@ -173,8 +184,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554930743812" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554933871760" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -225,18 +236,18 @@
       <option name="presentableId" value="Default" />
       <updated>1554921608563</updated>
       <workItem from="1554921613116" duration="4469000" />
-      <workItem from="1554926407489" duration="4293000" />
+      <workItem from="1554926407489" duration="7320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8762000" />
+    <option name="totallyTimeSpent" value="11789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14914425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14914425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -245,7 +256,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28779396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28779396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40425533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,33 +292,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java</url>
-          <line>75</line>
+          <line>167</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java</url>
-          <line>58</line>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -357,10 +350,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
@@ -377,24 +373,45 @@
     <entry file="file://$PROJECT_DIR$/src/GUI/GUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
+        <state relative-caret-position="207">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
-            <element signature="e#2615#2616#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#4005#4006#0" expanded="true" />
-            <element signature="e#4655#4656#0" expanded="true" />
-            <element signature="e#4784#4785#0" expanded="true" />
+            <element signature="method#BeanExample#0;class#BeanExample#0" />
+            <element signature="class#2645:2833" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#1886#1939#1" />
+            <element signature="e#4358#4359#0" expanded="true" />
+            <element signature="e#898#927#1" />
+            <element signature="e#4417#4418#0" expanded="true" />
+            <element signature="method#setTitle#0;class#BeanExample#0" />
+            <element signature="e#3786#3787#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="docComment;method#propertyChange#0;class#BeanExample#0" />
+            <element signature="method#propertyChange#0;class#BeanExample#0" />
+            <element signature="method#addPropertyChangeListener#0;class#BeanExample#0" />
+            <element signature="method#removePropertyChangeListener#0;class#BeanExample#0" />
+            <element signature="docComment;method#vetoableChange#0;class#BeanExample#0" />
+            <element signature="method#vetoableChange#0;class#BeanExample#0" />
+            <element signature="e#4143#4196#1" />
+            <element signature="e#6754#6755#0" expanded="true" />
+            <element signature="e#4269#4325#1" />
+            <element signature="e#6883#6884#0" expanded="true" />
+            <element signature="docComment;method#setReadOnlyArea#0;class#BeanExample#0" />
+            <element signature="method#setReadOnlyArea#0;class#BeanExample#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

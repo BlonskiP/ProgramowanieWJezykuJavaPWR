@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a681754d-f224-4e71-b137-ec7b2e4d304f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/.idea/libraries/ChartBean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/lab03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/src/GUI/GUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/src/GUI/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.form" beforeDir="false" afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab03/src/GUI/JavaBeanExample/Note.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +21,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaBeanExamples/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="323">
               <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/Test/JavaBeanExamples/MainClass.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -59,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -68,17 +74,55 @@
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBeanExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBeanExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554926324451" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,17 +163,18 @@
       <option name="presentableId" value="Default" />
       <updated>1554926095635</updated>
       <workItem from="1554926099439" duration="306000" />
+      <workItem from="1554933328749" duration="409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306000" />
+    <option name="totallyTimeSpent" value="715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14731051" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14914425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -138,7 +183,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28779396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28779396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4051144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -170,9 +215,18 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/out/production/Test/JavaBeanExamples/MainClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaBeanExamples/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="323">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />

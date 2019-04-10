@@ -1,6 +1,7 @@
 package GUI.JavaBeanExample;
 
 import javax.swing.*;
+import javax.swing.event.ListDataListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -18,6 +19,7 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
     private JTextArea newNoteArea;
     private JTextField newNoteTitle;
     private JList list1;
+    private DefaultListModel<Note> model=new DefaultListModel<>();
     private JButton addNoteBtn;
     private JButton removeSelectedNoteButton;
     private JButton readNoteBtn;
@@ -25,9 +27,10 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
     private JLabel NoteTitle;
     private ArrayList<Note> noteList=new ArrayList<>();
     private int noteListMaxSize=10;
-
     public BeanExample()
     {
+        readOnlyArea.setEditable(false);
+        list1.setModel(model);
         title="default title";
         titleLabel.setText(title);
         changes.addPropertyChangeListener(evt -> {
@@ -35,7 +38,7 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
             titleLabel.setText(title);
             JOptionPane.showMessageDialog(null, "TITLE LABEL ZOSTAJE ZMIENIONY!", "Property CHange: ", JOptionPane.INFORMATION_MESSAGE);
         });
-        vetoes.addVetoableChangeListener(new VetoableChangeListener() {
+        VetoableChangeListener vetoPlus = new VetoableChangeListener() {
             @Override
             public void vetoableChange(PropertyChangeEvent evt) throws PropertyVetoException {
                 if(evt.getPropertyName()=="listSize"){
@@ -43,14 +46,37 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
                         Note newNote = new Note(newNoteArea.getText(), newNoteTitle.getText());
 
                         noteList.add(newNote);
+                        model.add(noteList.size()-1,newNote);
                         System.out.println(noteList.size());
                     }
                     else{
-                        throw new PropertyVetoException("List is full",evt);
+                        throw new PropertyVetoException("List size will be wrong",evt);
                     }
                 }
             }
-        });
+        };
+        VetoableChangeListener vetoMinus = new VetoableChangeListener() {
+            @Override
+            public void vetoableChange(PropertyChangeEvent evt) throws PropertyVetoException {
+
+                if(evt.getPropertyName()=="listSizeMinus"){
+                    if(((int)evt.getOldValue()>=1)) {
+
+
+                        noteList.remove(list1.getSelectedIndex());
+                        model.remove(list1.getSelectedIndex());
+                     //   list1.remove(list1.getSelectedIndex());
+                        System.out.println(noteList.size());
+                      //  list1.repaint();
+                    }
+                    else{
+                        throw new PropertyVetoException("List size will be wrong",evt);
+                    }
+                }
+            }
+        };
+        vetoes.addVetoableChangeListener(vetoPlus);
+        vetoes.addVetoableChangeListener(vetoMinus);
         addNoteBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -60,7 +86,29 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
                 }
             }
         });
+        readNoteBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setReadOnlyArea();
+                setNoteTitle();
+            }
+        });
+        removeSelectedNoteButton.addActionListener(new ActionListener() {
+            /**
+             * Invoked when an action occurs.
+             *
+             * @param e
+             */
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(!list1.isSelectionEmpty())
+                RemoveNote(list1.getSelectedIndex());
+            }
+        });
     }
+
+
+
     public int getNoteListMaxSize(){
         return this.noteListMaxSize;
     }
@@ -117,7 +165,12 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
     }
     public void RemoveNote(int index)
     {
-        this.noteList.remove(0); //0 temp
+        Integer oldSize = new Integer(noteList.size());
+        try {
+            vetoes.fireVetoableChange("listSizeMinus",oldSize,new Integer(noteList.size()-1));
+        } catch (PropertyVetoException e) {
+            JOptionPane.showMessageDialog(null, "Wartość listy jest 0 !", "Veto!!: ", JOptionPane.INFORMATION_MESSAGE);
+        }
     }
 
     /**
@@ -144,5 +197,17 @@ public class BeanExample extends  JComponent implements PropertyChangeListener, 
      *
      * @param e
      */
+    public void setReadOnlyArea() {
+        if(!list1.isSelectionEmpty()){
+            String text=noteList.get(list1.getSelectedIndex()).getNoteText();
+        this.readOnlyArea.setText(text);
+    }
 
+    }
+
+    public void setNoteTitle() {
+        if(!list1.isSelectionEmpty()){
+            String text=noteList.get(list1.getSelectedIndex()).getNoteTitle();
+            this.NoteTitle.setText(text);
+    }}
 }
