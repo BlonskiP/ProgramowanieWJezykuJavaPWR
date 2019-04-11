@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 public class ResultStorage {
     static ArrayList<Reference<Result>> resultRefList=new ArrayList<>();
+    static ArrayList<Result> resultList=new ArrayList<>();
     static double found=0;
     static double notfound=0;
     static synchronized void addNewResult(Result newResult, long id)
     {
         Reference<Result> newRefResult = new WeakReference<Result>(newResult);
         resultRefList.add(newRefResult);
+//        resultList.add(newResult);
         System.out.println("New Result added! Thead id: "+id+" Seed: " + newResult.seed);
         newResult.knapsackResut.PrintResult();
     }

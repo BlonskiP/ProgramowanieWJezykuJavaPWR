@@ -16,7 +16,7 @@ public class Main {
     public static void runNewThread(String type)
     {
         if(!(Thread.activeCount()>20)) {
-            Thread t = new ProblemSolverThread(abs(generator.nextLong() % 66000), type);
+            Thread t = new ProblemSolverThread(abs(generator.nextLong() % 100), type);
             t.start();
         }
     }
