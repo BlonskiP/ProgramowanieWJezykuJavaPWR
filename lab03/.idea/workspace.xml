@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f83f37a-9b88-4b50-85e7-4af711e7f90f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,17 +14,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="442">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,30 +47,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#BeanExample#0;class#BeanExample#0" />
-                <element signature="class#2645:2833" />
-                <element signature="e#3308#3309#0" expanded="true" />
-                <element signature="e#3351#3352#0" expanded="true" />
-                <element signature="e#1886#1939#1" />
+                <element signature="e#4201#4202#0" expanded="true" />
+                <element signature="e#4244#4245#0" expanded="true" />
+                <element signature="e#4306#4307#0" expanded="true" />
                 <element signature="e#4358#4359#0" expanded="true" />
-                <element signature="e#898#927#1" />
+                <element signature="e#4389#4390#0" expanded="true" />
                 <element signature="e#4417#4418#0" expanded="true" />
-                <element signature="method#setTitle#0;class#BeanExample#0" />
-                <element signature="e#3786#3787#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
                 <element signature="docComment;method#propertyChange#0;class#BeanExample#0" />
                 <element signature="method#propertyChange#0;class#BeanExample#0" />
                 <element signature="method#addPropertyChangeListener#0;class#BeanExample#0" />
                 <element signature="method#removePropertyChangeListener#0;class#BeanExample#0" />
                 <element signature="docComment;method#vetoableChange#0;class#BeanExample#0" />
                 <element signature="method#vetoableChange#0;class#BeanExample#0" />
-                <element signature="e#4143#4196#1" />
+                <element signature="e#6702#6703#0" expanded="true" />
                 <element signature="e#6754#6755#0" expanded="true" />
-                <element signature="e#4269#4325#1" />
+                <element signature="e#6828#6829#0" expanded="true" />
                 <element signature="e#6883#6884#0" expanded="true" />
                 <element signature="docComment;method#setReadOnlyArea#0;class#BeanExample#0" />
                 <element signature="method#setReadOnlyArea#0;class#BeanExample#0" />
@@ -67,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="527">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,9 +87,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab03.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="323">
               <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
@@ -99,12 +111,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
+        <entry file="file://$PROJECT_DIR$/src/GUI/GUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/GUI.form">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -116,6 +128,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fireVeto</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,9 +147,9 @@
         <option value="$PROJECT_DIR$/src/GUI/GUI.form" />
         <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
         <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java" />
-        <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" />
-        <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" />
         <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java" />
+        <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java" />
+        <option value="$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form" />
       </list>
     </option>
   </component>
@@ -148,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,19 +191,25 @@
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
               <item name="JavaBeanExample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554933871760" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554983127449" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -237,17 +261,18 @@
       <updated>1554921608563</updated>
       <workItem from="1554921613116" duration="4469000" />
       <workItem from="1554926407489" duration="7320000" />
+      <workItem from="1554980338631" duration="2271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11789000" />
+    <option name="totallyTimeSpent" value="14060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14914425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -256,7 +281,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28779396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28641573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40425533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,7 +292,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3281075" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" />
@@ -275,7 +300,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
@@ -307,55 +332,25 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14020.34635/FaceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#3149#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14020.34635/FaceBean.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/JavaBeansExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14020.38558/FaceBeanBeanInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#94925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Test.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa14020.38558/FaceBeanBeanInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="442">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="323">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
@@ -370,35 +365,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/lab0332x32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab03.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/GUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="527">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#BeanExample#0;class#BeanExample#0" />
-            <element signature="class#2645:2833" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3351#3352#0" expanded="true" />
-            <element signature="e#1886#1939#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4201#4202#0" expanded="true" />
+            <element signature="e#4244#4245#0" expanded="true" />
+            <element signature="e#4306#4307#0" expanded="true" />
             <element signature="e#4358#4359#0" expanded="true" />
-            <element signature="e#898#927#1" />
+            <element signature="e#4389#4390#0" expanded="true" />
             <element signature="e#4417#4418#0" expanded="true" />
-            <element signature="method#setTitle#0;class#BeanExample#0" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
             <element signature="docComment;method#propertyChange#0;class#BeanExample#0" />
             <element signature="method#propertyChange#0;class#BeanExample#0" />
             <element signature="method#addPropertyChangeListener#0;class#BeanExample#0" />
             <element signature="method#removePropertyChangeListener#0;class#BeanExample#0" />
             <element signature="docComment;method#vetoableChange#0;class#BeanExample#0" />
             <element signature="method#vetoableChange#0;class#BeanExample#0" />
-            <element signature="e#4143#4196#1" />
+            <element signature="e#6702#6703#0" expanded="true" />
             <element signature="e#6754#6755#0" expanded="true" />
-            <element signature="e#4269#4325#1" />
+            <element signature="e#6828#6829#0" expanded="true" />
             <element signature="e#6883#6884#0" expanded="true" />
             <element signature="docComment;method#setReadOnlyArea#0;class#BeanExample#0" />
             <element signature="method#setReadOnlyArea#0;class#BeanExample#0" />
@@ -406,15 +412,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExampleBeanInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/GUI/JavaBeanExample/BeanExample.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
