@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a98d2b2d-6618-47a6-818a-3999d6445a01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/.idea/artifacts/Shared_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteServerListRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/ServerList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="a98d2b2d-6618-47a6-818a-3999d6445a01" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,12 +139,12 @@
       <workItem from="1555927856348" duration="37000" />
       <workItem from="1555937377294" duration="3018000" />
       <workItem from="1555944952778" duration="2851000" />
-      <workItem from="1555948052818" duration="2020000" />
+      <workItem from="1555948052818" duration="2297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7926000" />
+    <option name="totallyTimeSpent" value="8203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -265,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

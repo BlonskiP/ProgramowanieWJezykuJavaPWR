@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5900d2ef-83fc-4ae0-8dca-0d4b07e161ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Shared_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/ServerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IRemoteServerListRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IRemoteSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/ServerList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5900d2ef-83fc-4ae0-8dca-0d4b07e161ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,12 +155,12 @@
       <workItem from="1555927919173" duration="22000" />
       <workItem from="1555937536384" duration="2044000" />
       <workItem from="1555944309071" duration="2851000" />
-      <workItem from="1555948054069" duration="1648000" />
+      <workItem from="1555948054069" duration="1925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6565000" />
+    <option name="totallyTimeSpent" value="6842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
