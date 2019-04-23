@@ -7,5 +7,5 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface IRemoteSolver extends Remote {
-    KnapsackSolvingResult solve(InstanceProblem instanceProblem) throws RemoteException;
+    KnapsackSolvingResult Solve(InstanceProblem instanceProblem) throws RemoteException;
 }

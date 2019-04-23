@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KnapsackProblemSolutions" level="project" />
+    <orderEntry type="library" name="KnapsackProblemSolutions1" level="project" />
   </component>
 </module>

@@ -9,14 +9,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="904.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="904.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
    <children>
       <Label layoutX="23.0" layoutY="24.0" text="Port:" />
       <Label layoutX="22.0" layoutY="54.0" text="Host:" />
       <TextField fx:id="PortTF" layoutX="71.0" layoutY="20.0" />
-      <TextField fx:id="hostTF" layoutX="71.0" layoutY="50.0" promptText="host" text="localhost" />
-      <Button fx:id="ConnectToRegistryBtn" layoutX="236.0" layoutY="20.0" mnemonicParsing="false" text="Connect To Server Registry" />
+      <TextField fx:id="HostTF" layoutX="71.0" layoutY="50.0" promptText="host" text="localhost" />
+      <Button fx:id="ConnectToRegistryBtn" layoutX="236.0" layoutY="20.0" mnemonicParsing="false" onAction="#ConnectToRegistry" text="Connect To Server Registry" />
       <Separator layoutX="8.0" layoutY="100.0" prefHeight="5.0" prefWidth="571.0" />
       <TableView layoutX="22.0" layoutY="114.0" prefHeight="193.0" prefWidth="547.0">
         <columns>
