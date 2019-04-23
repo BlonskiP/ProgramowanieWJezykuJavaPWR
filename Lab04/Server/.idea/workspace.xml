@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a98d2b2d-6618-47a6-818a-3999d6445a01" name="Default Changelist" comment="" />
+    <list default="true" id="a98d2b2d-6618-47a6-818a-3999d6445a01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="66" column="117" selection-start-line="66" selection-start-column="117" selection-end-line="66" selection-end-column="117" />
+            <state relative-caret-position="461">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -23,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,32 +83,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555940398451" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -139,16 +136,16 @@
       <workItem from="1555927856348" duration="37000" />
       <workItem from="1555937377294" duration="3018000" />
       <workItem from="1555944952778" duration="2851000" />
-      <workItem from="1555948052818" duration="2297000" />
+      <workItem from="1555948052818" duration="2426000" />
+      <workItem from="1555955796763" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8203000" />
+    <option name="totallyTimeSpent" value="8806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -159,7 +156,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28641573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28641573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40425533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,20 +231,20 @@
     <entry file="jar://$PROJECT_DIR$/../Shared/out/artifacts/Shared_jar/Shared.jar!/Classes/ServerInfo.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="66" column="117" selection-start-line="66" selection-start-column="117" selection-end-line="66" selection-end-column="117" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="461">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

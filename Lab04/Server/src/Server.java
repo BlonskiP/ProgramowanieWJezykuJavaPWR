@@ -60,12 +60,12 @@ public class Server {
 
         private void registerObject(Solver solver) throws RemoteException, NotBoundException, MalformedURLException {
             ServerInfo serverInfo=new ServerInfo(this.remoteObjName,this.algorithm);
-            for (String obj:registry.list()
-                 ) {
-                System.out.println(obj);
-            }
             IRemoteServerListRegister serverRegister = (IRemoteServerListRegister) registry.lookup("ServerRegister");
-            serverRegister.register(serverInfo);
+            if(serverRegister.register(serverInfo)){
+                System.out.println("Server has been registered");
+            }
+            else
+                System.out.println("Register error");
         }
     }
 
