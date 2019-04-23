@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServerList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -37,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Registry/ServerRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -167,12 +167,12 @@
       <workItem from="1555948050006" duration="2172000" />
       <workItem from="1555955026544" duration="335000" />
       <workItem from="1555955707175" duration="87000" />
-      <workItem from="1556030121585" duration="80000" />
+      <workItem from="1556030121585" duration="249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5967000" />
+    <option name="totallyTimeSpent" value="6136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
@@ -187,7 +187,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28532976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28532976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4051144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,20 +219,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Registry/ServerRegistry.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerList.java">
+    <entry file="file://$PROJECT_DIR$/src/Registry/ServerRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="442">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

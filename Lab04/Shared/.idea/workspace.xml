@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5900d2ef-83fc-4ae0-8dca-0d4b07e161ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" afterDir="false" />
@@ -121,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556030279861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556030371362" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17675781" />
@@ -166,12 +164,12 @@
       <workItem from="1555944309071" duration="2851000" />
       <workItem from="1555948054069" duration="2059000" />
       <workItem from="1555955365091" duration="339000" />
-      <workItem from="1556028732337" duration="940000" />
+      <workItem from="1556028732337" duration="1111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8255000" />
+    <option name="totallyTimeSpent" value="8426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
