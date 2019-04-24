@@ -1,10 +1,13 @@
+package DataBase;
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name ="Players")
-public class Player {
+public class Player implements Serializable {
 
     @Id
     @Column(name = "ID")
@@ -31,5 +34,8 @@ public class Player {
         this.name = name;
     }
 
-
+    @Override
+    public String toString() {
+        return name+" id: "+getID();
+    }
 }

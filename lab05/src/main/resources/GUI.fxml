@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="463.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <children>
+      <Label layoutX="42.0" layoutY="33.0" text="Players List" />
+      <Label layoutX="286.0" layoutY="33.0" text="DataBase.Skill List" />
+      <ListView fx:id="playersView" layoutX="14.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="skillsView" layoutX="238.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" />
+      <Separator layoutX="220.0" layoutY="3.0" orientation="VERTICAL" prefHeight="557.0" prefWidth="12.0" />
+      <Button layoutX="16.0" layoutY="282.0" mnemonicParsing="false" onAction="#AddPlayer" text="Add DataBase.Player" />
+      <Button layoutX="16.0" layoutY="324.0" mnemonicParsing="false" onAction="#UpdatePlayer" text="Update DataBase.Player" />
+      <Button layoutX="238.0" layoutY="282.0" mnemonicParsing="false" onAction="#AddSkill" text="Add DataBase.Skill" />
+      <Button layoutX="238.0" layoutY="324.0" mnemonicParsing="false" onAction="#UpdateSkill" text="Update DataBase.Skill" />
+      <TextField fx:id="playerNameText" layoutX="16.0" layoutY="379.0" promptText="DataBase.Player Name" />
+      <TextField fx:id="skillDesc" layoutX="233.0" layoutY="379.0" promptText="DataBase.Skill desc" />
+      <Button layoutX="168.0" layoutY="14.0" mnemonicParsing="false" onAction="#RefreshPlayers" text="Get Players and Skills" />
+      <TextField fx:id="skillTitle" layoutX="233.0" layoutY="428.0" />
+      <Button layoutX="16.0" layoutY="514.0" mnemonicParsing="false" onAction="#ParseToXML" text="GetXML" />
+   </children>
+</AnchorPane>
