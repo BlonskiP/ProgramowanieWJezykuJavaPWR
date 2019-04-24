@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98d2b2d-6618-47a6-818a-3999d6445a01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientGUI/.idea/artifacts/Client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientGUI/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/artifacts/JavaFXApp.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerList/.idea/artifacts/ServerList_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/ServerList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="54" column="76" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="76" />
+            <state relative-caret-position="595">
+              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,15 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="459">
               <caret line="29" column="105" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +82,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555940398451" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientGUI" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -152,15 +132,16 @@
       <workItem from="1555948052818" duration="2426000" />
       <workItem from="1555955796763" duration="474000" />
       <workItem from="1556123929781" duration="3973000" />
+      <workItem from="1556131083009" duration="33000" />
+      <workItem from="1556131465884" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12779000" />
+    <option name="totallyTimeSpent" value="13038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -244,24 +225,22 @@
     <entry file="jar://$PROJECT_DIR$/../Shared/out/artifacts/Shared_jar/Shared.jar!/Classes/ServerInfo.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="54" column="76" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="76" />
+        <state relative-caret-position="459">
+          <caret line="29" column="105" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="105" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
+        <state relative-caret-position="595">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -272,10 +251,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Server:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

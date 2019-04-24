@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5900d2ef-83fc-4ae0-8dca-0d4b07e161ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServerList/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/ServerList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/Registry/ServerRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServerList/src/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerList/src/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ServerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" afterDir="false" />
-    </list>
+    <list default="true" id="5900d2ef-83fc-4ae0-8dca-0d4b07e161ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/src/Interfaces/IRemoteSolver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Interfaces/IRemoteServerListRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="85">
               <caret line="9" column="42" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,12 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/ServerInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -109,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -132,14 +102,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556030371362" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ServerList" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17675781" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -190,16 +159,17 @@
       <workItem from="1555955365091" duration="339000" />
       <workItem from="1556028732337" duration="1111000" />
       <workItem from="1556124148441" duration="3694000" />
+      <workItem from="1556130935198" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12120000" />
+    <option name="totallyTimeSpent" value="12174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1673" y="-7" width="1454" height="874" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18723099" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19010043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -241,20 +211,19 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Classes/ServerInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IRemoteSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Interfaces/IRemoteServerListRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="85">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -262,13 +231,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/IRemoteSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/Classes/ServerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
         </state>
       </provider>
     </entry>

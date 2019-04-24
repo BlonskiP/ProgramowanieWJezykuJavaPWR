@@ -7,6 +7,8 @@
       </element>
       <element id="module-output" name="ServerList" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../Shared/out/artifacts/Shared_jar/Shared.jar" path-in-jar="/" />
+      <element id="library" level="project" name="KnapsackProblemSolutions" />
+      <element id="library" level="project" name="Shared" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ClientGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientGUI_jar</output-path>
+    <root id="archive" name="ClientGUI.jar">
+      <element id="module-output" name="ClientGUI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Shared/out/artifacts/Shared_jar/Shared.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../KnapsackProblemLib/out/artifacts/ProgramowanieWJezykuJavaPWR_jar/KnapsackProblemSolutions.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

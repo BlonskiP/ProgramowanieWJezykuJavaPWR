@@ -7,32 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a78ffd39-3219-4b02-acdc-e0d3ff6298ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Registry/ServerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registry/ServerRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ServerList_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,15 +115,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556130785652" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientGUI" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.20852534" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -204,17 +180,17 @@
       <workItem from="1556030121585" duration="249000" />
       <workItem from="1556122535233" duration="532000" />
       <workItem from="1556123094267" duration="4794000" />
+      <workItem from="1556130990222" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11462000" />
+    <option name="totallyTimeSpent" value="11553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16503668" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16687042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
