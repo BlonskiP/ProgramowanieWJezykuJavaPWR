@@ -11,7 +11,7 @@ public class ServerList {
 
     public static void main (String[] argv) throws RemoteException
     {
-
+        if(argv[0]!=null)
         try {
 
             serverRegister = new ServerRegistry();
@@ -23,6 +23,10 @@ public class ServerList {
         catch(RemoteException e)
         {
             System.out.println("Service error: " + e);
+        }
+        else
+        {
+            System.out.println("No arguments");
         }
     }
 }

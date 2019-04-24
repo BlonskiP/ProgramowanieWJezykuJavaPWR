@@ -5,10 +5,10 @@
 import Classes.ServerInfo;
 import Interfaces.IRemoteServerListRegister;
 
+import java.net.InetAddress;
 import java.net.MalformedURLException;
-import java.rmi.Naming;
+import java.net.UnknownHostException;
 import java.rmi.NotBoundException;
-import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -21,7 +21,7 @@ public class Server {
         private int port;
         private String remoteObjName;
         private String algorithm;
-
+        private String hostname;
         public Server(String host, int port, String remoteObjName, String algorithm)
         {
           this.host=host;
@@ -54,12 +54,22 @@ public class Server {
 
         private void ConnectToRegistry(String host, int port, String objName) throws RemoteException {
             solver = new Solver();
+
             registry = LocateRegistry.getRegistry(host, port);
             registry.rebind(objName, solver);
         }
 
         private void registerObject(Solver solver) throws RemoteException, NotBoundException, MalformedURLException {
-            ServerInfo serverInfo=new ServerInfo(this.remoteObjName,this.algorithm);
+
+            try {
+                InetAddress ip = InetAddress.getLocalHost();
+                 hostname = ip.getHostName();
+            } catch (UnknownHostException e) {
+                e.printStackTrace();
+                return;
+            }
+            ServerInfo serverInfo=new ServerInfo(this.remoteObjName,this.algorithm, hostname);
+            solver.setAlgorithName(algorithm);
             IRemoteServerListRegister serverRegister = (IRemoteServerListRegister) registry.lookup("ServerRegister");
             if(serverRegister.register(serverInfo)){
                 System.out.println("Server has been registered");

@@ -1,11 +1,13 @@
 package KnapsackProblem.KnapsackSolvingAlgorithms;
 import KnapsackProblem.Item;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 /**
 An result of the Knapsack Problem.
 Contains list of Items, sum of their weight and value
 */
-public class KnapsackSolvingResult {
+public class KnapsackSolvingResult implements Serializable {
 	/**
 	List of Items that are choosen by Solving algorithm
 	*/

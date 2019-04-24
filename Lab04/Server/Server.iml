@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Shared" level="project" />
+    <orderEntry type="library" name="KnapsackProblemSolutions" level="project" />
   </component>
 </module>

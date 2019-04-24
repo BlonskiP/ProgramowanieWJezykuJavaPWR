@@ -17,13 +17,17 @@ public class ServerRegistry extends UnicastRemoteObject implements IRemoteServer
     @Override
     public boolean register(ServerInfo serverInfo) {
 
-        if(serverInfoList.contains(serverInfo))return false;
+        if(serverInfoList.contains(serverInfo))
+        {   System.out.println("Was trying to register new Server: " + serverInfo.solverName + " " + serverInfo.AlgorithmInfo + " \n But I already have it" );
+            return false;}
         System.out.println("New server registered: " + serverInfo.solverName + " Algorithm: " + serverInfo.AlgorithmInfo);
+        serverInfoList.add(serverInfo);
         return true;
     }
 
     @Override
-    public List<ServerInfo> getServerList() throws RemoteException {
+    public List<ServerInfo> getServerList(){
+        System.out.println("Server List was requested");
         return serverInfoList;
     }
 

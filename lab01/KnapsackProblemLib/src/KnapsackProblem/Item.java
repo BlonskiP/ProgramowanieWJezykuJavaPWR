@@ -1,9 +1,12 @@
 package KnapsackProblem;
+
+import java.io.Serializable;
+
 /**
 *Represents Item in bag.
 *It has name, value and weight
 */
-public class Item {
+public class Item implements Serializable {
 	/**
 	Name of Item. Example:"Banana"
 	*/

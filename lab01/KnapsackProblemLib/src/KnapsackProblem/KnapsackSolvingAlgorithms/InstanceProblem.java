@@ -2,6 +2,7 @@ package KnapsackProblem.KnapsackSolvingAlgorithms;
 
 import KnapsackProblem.Item;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 /**
 Instance of Knapsack Problem 0/1
@@ -10,7 +11,7 @@ Properties:
 2.Max capacity of bag
 It can print items from bag.
 */
-public class InstanceProblem {
+public class InstanceProblem implements Serializable {
 	/**
 	This property contains all items that can be used in this knapsack problem.
 	*/

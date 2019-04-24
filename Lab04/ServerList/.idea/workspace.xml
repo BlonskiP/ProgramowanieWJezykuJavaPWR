@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ServerList:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a78ffd39-3219-4b02-acdc-e0d3ff6298ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ServerList_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/ClientGUI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/src/GUI/GUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Solver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerList.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Registry/ServerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registry/ServerRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shared/.idea/libraries/KnapsackProblemSolutions1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientGUI/.idea/libraries/KnapsackProblemSolutions.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Shared/Shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/Shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteServerListRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteServerListRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Interfaces/IRemoteSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shared/src/Classes/ServerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab01/KnapsackProblemLib/src/KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServerList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -40,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Registry/ServerRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="391">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,14 +97,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ServerList" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServerList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerList" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerList_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServerList" type="b2602c69:ProjectViewProjectNode" />
@@ -106,16 +137,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555940986443" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556130785652" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientGUI" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.20852534" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -168,17 +202,19 @@
       <workItem from="1555955026544" duration="335000" />
       <workItem from="1555955707175" duration="87000" />
       <workItem from="1556030121585" duration="249000" />
+      <workItem from="1556122535233" duration="532000" />
+      <workItem from="1556123094267" duration="4794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6136000" />
+    <option name="totallyTimeSpent" value="11462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18767908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16503668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -187,7 +223,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28532976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23740202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4051144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,7 +237,7 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32839838" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -221,18 +257,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ServerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Registry/ServerRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="391">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -245,10 +278,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ServerList:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20852534" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -304,11 +339,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Shared</last-edited>
+          <last-edited>KnapsackProblemSolutions</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20852534" />
               </list>
             </option>
           </splitter-proportions>
