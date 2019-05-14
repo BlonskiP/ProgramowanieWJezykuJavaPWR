@@ -60,7 +60,7 @@ public class Controller {
     }
 
     @FXML
-    void Send() throws Exception {
+    void Send(){
         String message=MessagesTextBox.getText();
         String receiver= ReceiverBox.getText();
         ConnectionManager.sendMessage(message,receiver);

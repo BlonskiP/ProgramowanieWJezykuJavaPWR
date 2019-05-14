@@ -14,7 +14,7 @@
       <Label fx:id="PortLabel" layoutX="18.0" layoutY="24.0" text="PortLabel" />
       <Label fx:id="TargetLabel" layoutX="18.0" layoutY="51.0" text="TargetLabel" />
       <TextArea fx:id="MessagesTextBox" layoutX="19.0" layoutY="186.0" prefHeight="200.0" prefWidth="140.0" />
-      <Button fx:id="SendButton" layoutX="17.0" layoutY="151.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="140.0" text="Send Message" />
+      <Button fx:id="SendButton" layoutX="17.0" layoutY="151.0" mnemonicParsing="false" onAction="#Send" prefHeight="25.0" prefWidth="140.0" text="Send Message" />
       <TextArea fx:id="MessagesLog" editable="false" layoutX="171.0" layoutY="158.0" prefHeight="223.0" prefWidth="246.0" />
       <Label fx:id="MessReceived" layoutX="244.0" layoutY="134.0" text="Messages received" />
       <Label fx:id="AppName" layoutX="204.0" layoutY="16.0" prefHeight="59.0" prefWidth="175.0" text="APP NAME" textAlignment="JUSTIFY">
