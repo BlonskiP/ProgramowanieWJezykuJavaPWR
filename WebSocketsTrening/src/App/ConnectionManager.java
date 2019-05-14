@@ -1,5 +1,7 @@
 package App;
 
+import org.w3c.dom.Node;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -46,6 +48,18 @@ public class ConnectionManager extends Thread {
             portListen();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    static public boolean sendMessage(String message, String receiver)
+    {
+        try {
+            Node mess = SoapManager.CreateMessage(message,receiver);
+            SoapManager.dumpDocument(mess);
+            return true;
+        } catch (Exception e) {
+
+            e.printStackTrace();
+            return false;
         }
     }
 

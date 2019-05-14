@@ -26,7 +26,6 @@ public class Main extends Application {
         // arg3 -> Host
         manager=new ConnectionManager(args[0],args[1],args[2],args[3]);
 
-
         launch(args);
     }
 }
