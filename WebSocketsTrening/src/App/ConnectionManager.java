@@ -2,10 +2,9 @@ package App;
 
 import org.w3c.dom.Node;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import javax.xml.soap.MessageFactory;
+import javax.xml.soap.SOAPMessage;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -26,36 +25,54 @@ public class ConnectionManager extends Thread {
         ConnectionManager.connectingPort = connectingPort;
         ConnectionManager.host = host;
         ConnectionManager.instance = this;
+
     }
+
     static public boolean connect()
     {
         try {
+
             socket=new Socket(host, Integer.parseInt(connectingPort));
+            System.out.println("Connected to " + connectingPort + "ready to send message");
             return true;
         } catch (IOException e) {
            System.out.println("Couldn't connect to: "+host + " port: "+ connectingPort);
            return false;
         }
     }
-    static public void portListen() throws IOException {
-        System.out.println("Listening on port " + listeningPort);
-        serverSocket = new ServerSocket(Integer.parseInt(listeningPort));
-        Socket s = serverSocket.accept();
-        System.out.println("Connected");
-        InputStreamReader in = new InputStreamReader(s.getInputStream());
-        BufferedReader bf = new BufferedReader(in);
-        String str = bf.readLine();
-        System.out.println(str);
+    static public void portListen(){
+
+        try {
+            serverSocket = new ServerSocket(Integer.parseInt(listeningPort));
+            System.out.println("Listening on port " + listeningPort);
+            while(!serverSocket.isClosed()) {
+                Socket s = serverSocket.accept();
+
+                //
+
+                InputStreamReader in = new InputStreamReader(s.getInputStream());
+                BufferedReader bf = new BufferedReader(in);
+
+                String input=bf.readLine();
+                String receivedMessage=input;
+                while ((input = bf.readLine()) != null) {
+                    receivedMessage += input;
+                }
+                bf.close();
+                in.close();
+                System.out.println("New Message arrived");
+                System.out.println(receivedMessage);
+                SoapManager.createMessageFromStream(receivedMessage);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 
     }
     public void run()
     {
-        try {
-
             portListen();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
     static public boolean sendMessage(String message, String receiver)
     {
@@ -69,6 +86,21 @@ public class ConnectionManager extends Thread {
             return false;
         }
     }
+    static public boolean sendMessage(String msg)
+    {
+        OutputStream os = null;
+        try {
+            os = ConnectionManager.socket.getOutputStream();
+            os.write(msg.getBytes());
+            os.flush();
+            os.close();
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
 
 
 }

@@ -33,22 +33,18 @@ public class Controller {
     @FXML
     public void initialize() {
         SetLabels();
+        SoapManager.setControler(this);
     }
 
-    @FXML
-    public void portListen() {
-        AddLog("Listening on port " + ConnectionManager.listeningPort);
-        ConnectionManager.instance.start();
-    }
-
-    @FXML
-    public void Connect() {
-        AddLog("Trying to connect port: " + ConnectionManager.connectingPort);
-        if (ConnectionManager.connect()) {
-            AddLog("Connection success");
+    public boolean Connect() {
+        boolean success = ConnectionManager.connect();
+        if (success) {
+            AddLog("Connection success Message send");
+            System.out.println("Message send");
         } else {
             AddLog("Connection failed");
         }
+        return success;
 
     }
 
@@ -63,7 +59,10 @@ public class Controller {
     void Send(){
         String message=MessagesTextBox.getText();
         String receiver= ReceiverBox.getText();
+        if(Connect()){
         ConnectionManager.sendMessage(message,receiver);
+        }
+
     }
     void AddLog(String mess)
     {
