@@ -90,10 +90,12 @@ public class ConnectionManager extends Thread {
     {
         OutputStream os = null;
         try {
+            socket=new Socket(host, Integer.parseInt(connectingPort));
             os = ConnectionManager.socket.getOutputStream();
             os.write(msg.getBytes());
             os.flush();
             os.close();
+            socket.close();
             return true;
         } catch (IOException e) {
             e.printStackTrace();

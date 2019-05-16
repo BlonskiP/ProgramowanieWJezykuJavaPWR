@@ -139,8 +139,8 @@ public class SoapManager {
                 SOAPMessage msg = MessageFactory.newInstance().createMessage(null, is);
                 System.out.println("msg format ok");
 
-               SOAPHeader head = msg.getSOAPHeader();
-               SOAPFactory fc= SOAPFactory.newInstance();
+                SOAPHeader head = msg.getSOAPHeader();
+                SOAPFactory fc= SOAPFactory.newInstance();
 
 
 
@@ -148,9 +148,39 @@ public class SoapManager {
                 Node senderNode = d.getFirstChild().getFirstChild();
                 Node recNode = d.getLastChild().getFirstChild();
                 String target = recNode.getNodeValue();
-                if(!target.equals(ConnectionManager.name))
+                String name = ConnectionManager.name;
+                String sender = senderNode.getNodeValue();
+                String port = ConnectionManager.host+":"+ConnectionManager.listeningPort;
+                if(sender.equals(port))
                 {
+                    System.out.println("I received my msg");
+                }
+                else if(!target.equals(name) || target.equals("broadcast"))
+                {
+                    if(target.equals("broadcast")) {
+                        String msgtext = sender+" said: ";
+                        SOAPBody body = msg.getSOAPBody();
+                        Node text = body.getFirstChild().getFirstChild().getFirstChild();
+                        String msgBody ="";
+                        if(text!=null) {
+                            msgBody = text.getNodeValue();
+                        }
+                        msgtext+=msgBody;
+                        guiControler.AddLog(msgtext);
+                    }
                     ConnectionManager.sendMessage(newMessage);
+                }
+                else if(target.equals(name))
+                {
+                    String msgtext = sender+" said: ";
+                    SOAPBody body = msg.getSOAPBody();
+                    Node text = body.getFirstChild().getFirstChild().getFirstChild();
+                    String msgBody ="";
+                    if(text!=null) {
+                        msgBody = text.getNodeValue();
+                    }
+                    msgtext+=msgBody;
+                    guiControler.AddLog(msgtext);
                 }
 
 
