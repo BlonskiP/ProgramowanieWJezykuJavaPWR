@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
-
+// https://www.mkyong.com/java/java-asymmetric-cryptography-example/?fbclid=IwAR2NSz_G6UME3YSLhTe8Zk2td0IK2Csjy5YUL2qqT6y_uoQ-NTo8n8ItsIs
 public class EncryptionManager {
     public static Scanner sc;
     public static void startEncryption() throws Exception {
