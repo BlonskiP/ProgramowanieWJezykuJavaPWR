@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
@@ -26,10 +27,16 @@ public class FileEncryptor {
         String priv = EncryptionManager.sc.nextLine();
         System.out.print("Enter a destination filename: ");
         String dest = EncryptionManager.sc.nextLine();
+
+
+        KeyFile = new File(priv);
+        fileToEncrypt = new File(file);
+        destinationFile = new File(dest);
         EncryptFile();
     }
     private static PrivateKey getKey(File file) throws Exception {
-        byte[] keyBytes = Files.readAllBytes(file.toPath());
+        Path filepath = file.toPath();
+        byte[] keyBytes = Files.readAllBytes(filepath);
         PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
         KeyFactory kf = KeyFactory.getInstance(encryptAlgorith);
         return kf.generatePrivate(spec);

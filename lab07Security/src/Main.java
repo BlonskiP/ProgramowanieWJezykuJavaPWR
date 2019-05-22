@@ -19,6 +19,8 @@ public class Main {
         catch(NoSuchAlgorithmException e)
         {
             System.out.println("There is not such algorithm");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

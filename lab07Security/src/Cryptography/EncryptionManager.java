@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class EncryptionManager {
     public static Scanner sc;
-    public static void startEncryption() throws NoSuchAlgorithmException, IOException {
+    public static void startEncryption() throws Exception {
 
         System.out.println("What do you want?");
         System.out.println("K - new key pair");
@@ -25,10 +25,10 @@ public class EncryptionManager {
                 KeyGenerator.run();
             }
             else if(userInputFromKeyboard.equals("E")){
-                //Encrypt class go here
+                FileEncryptor.Init();
             }
             else if(userInputFromKeyboard.equals("D")){
-                //descrypt class go here
+               FileDecryptor.Init();
             }
         }
         sc.close();

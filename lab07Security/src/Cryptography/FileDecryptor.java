@@ -21,13 +21,18 @@ public class FileDecryptor {
     private static File destinationFile;
     private static String decryptAlgorith="RSA";
 
-    public static void init() throws Exception {
+    public static void Init() throws Exception {
         System.out.print("Enter a filename to decrypt: ");
         String file = EncryptionManager.sc.nextLine();
         System.out.print("Enter a public key location: ");
         String priv = EncryptionManager.sc.nextLine();
         System.out.print("Enter a destination filename: ");
         String dest = EncryptionManager.sc.nextLine();
+
+        KeyFile = new File(priv);
+        fileToDecrypt = new File(file);
+        destinationFile = new File(dest);
+
         DecryptFile();
     }
     private static void saveToFile(File file, String toSave) throws IOException {
@@ -53,8 +58,7 @@ public class FileDecryptor {
         String decoded = new String(cipher.doFinal(Base64.getMimeDecoder().decode(messageToDecrypt)));
         System.out.println("Saving the decoded message to file.");
         saveToFile(destinationFile, decoded);
-        System.out.println("Decoded message:");
-        System.out.println(decoded);
+        System.out.println("Decoded message:" +decoded + "< end of file >");
 
     }
 }
