@@ -54,7 +54,7 @@ public class FileDecryptor {
         Cipher cipher = Cipher.getInstance(decryptAlgorith);
         cipher.init(Cipher.DECRYPT_MODE, getKey(KeyFile));
         String messageToDecrypt = EncryptionManager.getMessage(fileToDecrypt);
-        System.out.println("Decrypting a message.");
+        System.out.println("Decrypting a message." + messageToDecrypt);
         String decoded = new String(cipher.doFinal(Base64.getMimeDecoder().decode(messageToDecrypt)));
         System.out.println("Saving the decoded message to file.");
         saveToFile(destinationFile, decoded);

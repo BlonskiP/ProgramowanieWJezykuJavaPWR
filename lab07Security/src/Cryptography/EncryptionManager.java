@@ -34,13 +34,16 @@ public class EncryptionManager {
         sc.close();
     }
     public static String getMessage(File file) throws FileNotFoundException {
+
         StringBuilder builder = new StringBuilder();
         Scanner scanner = new Scanner(file);
         while (scanner.hasNextLine()) {
             builder.append(scanner.nextLine()).append("\r\n");
         }
         scanner.close();
-        return builder.toString();
+
+        String msg = builder.toString();
+        return msg;
     }
 
 }
