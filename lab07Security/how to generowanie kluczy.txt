@@ -1,0 +1,8 @@
+keytool.exe -genkeypair -keyalg rsa -keysize 2048 -alias pblonski -keystore pblonski.jks -dname "CN=Piotr Blonski"
+
+keytool.exe -export -keystore pblonski.jks -alias pblonski -file pblonski_pub.cer
+
+
+jarsigner.exe -keystore pblonski.jks -storepass warhammer -keypass warhammer -signedjar "C:\Programming\ProgramowanieWJezykuJavaPWR\lab07Security\src\KanpsackPacage\KnapsackProblemSolutions.jar" "C:\Programming\ProgramowanieWJezykuJavaPWR\KnapsackProblemLib\out\artifacts\ProgramowanieWJezykuJavaPWR_jar\KnapsackProblemSolutions.jar" pblonski
+
+jarsigner -verify -certs -verbose sbiblioteka01.jar

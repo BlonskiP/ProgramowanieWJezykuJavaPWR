@@ -1,5 +1,4 @@
 import Cryptography.EncryptionManager;
-import KanpsackPacage.KnapSolver;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
@@ -12,7 +11,7 @@ public class Main {
                 EncryptionManager.startEncryption();
             }
             if (args[0].equals("knapsack")) {
-                KnapSolver.Solve();
+
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Args should be: crypt or knapsack");

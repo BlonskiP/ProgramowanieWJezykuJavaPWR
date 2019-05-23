@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Thu May 23 08:57:40 CEST 2019*/
+/* DO NOT EDIT */
+
+keystore "file://C:/Programming/ProgramowanieWJezykuJavaPWR/lab07Security/pblonski.jks", "jks";
+
+grant signedBy "pblonski", codeBase "file:C:\Programming\ProgramowanieWJezykuJavaPWR\lab07Security\src\KanpsackPacage\KnapsackProblemSolutions.jar" {
+ permission java.security.AllPermission;
+ permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+};
+
+
