@@ -7,21 +7,34 @@ import java.util.Scanner;
 
 public class AIBrain {
     public static ArrayList<Script> allAIScripts=new ArrayList<>();
+    public static char symbol = 'o';
+
     public static void updateScripts() throws FileNotFoundException, ScriptException {
         JavaScriptManager.updateScripts();
+        CppScriptManager.updateScripts();
         allAIScripts.clear();
         allAIScripts.addAll(JavaScriptManager.scripts);
+        allAIScripts.addAll(CppScriptManager.scripts);
     }
-    public static void invokeScript(int x) throws FileNotFoundException, ScriptException {
+    public static int[] invokeScript(int x) throws FileNotFoundException, ScriptException {
         Script scriptToExe = allAIScripts.get(x);
+        int[] move=null;
         switch(scriptToExe.type){
             case "js":{
-                JavaScriptManager.invokeScript(allAIScripts.get(x));
-                break;}
+                move= JavaScriptManager.invokeScript(allAIScripts.get(x));
+                break;
+               }
             case "c":{break;}
         }
+        if(move == null)
+        {
+            GAME.clearScreen();
+            System.out.println("This script doesn't have moveTick function!");
+            return AIBrain.makeMove();
+        }
+        return move;
     }
-    public static void getMoveScript() throws FileNotFoundException, ScriptException {
+    public static int[] getMoveScript() throws FileNotFoundException, ScriptException {
         printAllScripts();
         System.out.println("Enter number of a script to invoke: ");
         Scanner sc = new Scanner(System.in);
@@ -36,8 +49,8 @@ public class AIBrain {
                 System.out.println("Give script number from above list!");
             }
         }
-        invokeScript(scriptNumber);
-
+       int move[] = invokeScript(scriptNumber);
+        return move;
     }
     public static void printAllScripts() throws FileNotFoundException, ScriptException {
         updateScripts();
@@ -47,5 +60,17 @@ public class AIBrain {
             System.out.println(index+". "+script.name);
             index++;
         }
+    }
+
+    public static int[] makeMove() {
+        int[] move = new int[0];
+        try {
+            return move=getMoveScript();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (ScriptException e) {
+            e.printStackTrace();
+        }
+        return move;
     }
 }

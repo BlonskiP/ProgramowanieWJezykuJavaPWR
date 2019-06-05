@@ -8,11 +8,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws ScriptException, IOException {
-        GAME.newGameInit();
-        GAME.printBoard();
-        GAME.acceptMove(Player.makeMove(),Player.symbol);
-        GAME.printBoard();
-        GAME.acceptMove(Player.makeMove(),Player.symbol);
-        GAME.printBoard();
+
+        GAME.gameLoop();
     }
 }

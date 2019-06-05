@@ -18,19 +18,19 @@ public class JavaScriptManager {
     public static void updateScripts() throws FileNotFoundException, ScriptException {
 
         if(scriptsFolder==null)
+    {
+        scriptsFolder=new File(ClassLoader.getSystemClassLoader().getResource(".").getPath()+"/scripts");
+        if(!createScriptFolder())
         {
-            scriptsFolder=new File(ClassLoader.getSystemClassLoader().getResource(".").getPath()+"/scripts");
-            if(!createScriptFolder())
-            {
-                System.out.println("There is 'scripts' file and it is not a directory");
-                while(!createScriptFolder());
-            }
+            System.out.println("There is 'scripts' file and it is not a directory");
+            while(!createScriptFolder());
         }
+    }
             scripts.clear();
-            getAllJavaScript();
-            System.out.println(scripts.size());
+    getAllJavaScript();
 
-        }
+
+    }
 
     private static boolean createScriptFolder()
     {
@@ -66,15 +66,21 @@ public class JavaScriptManager {
             System.out.println(fileName.name);
         }
     }
-    public static void invokeScript(Script script) throws FileNotFoundException, ScriptException {
+    public static int[] invokeScript(Script script) throws FileNotFoundException, ScriptException {
         engine.eval(new FileReader(script.path.toString()));
         Invocable invocable = (Invocable) engine;
+        Object move = new int[0];
         try {
-            char[][] testArray = new char[4][4];
-            testArray[0][0]='a';
-            invocable.invokeFunction("moveTick",testArray);
+
+
+            move = ((Invocable) engine).invokeFunction("moveTick",GAME.gameBoard);
+
+            return (int[])move;
         } catch (NoSuchMethodException e) {
-            System.out.println("This script doesn't have moveTick function!");
-        }
+            GAME.clearScreen();
+        System.out.println("This script doesn't have moveTick function!");
+        return AIBrain.makeMove();
+    }
+
     }
 }
