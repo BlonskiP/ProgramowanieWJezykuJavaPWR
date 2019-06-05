@@ -24,7 +24,11 @@ public class AIBrain {
                 move= JavaScriptManager.invokeScript(allAIScripts.get(x));
                 break;
                }
-            case "c":{break;}
+            case "c":{
+                String moveName= allAIScripts.get(x).name;
+                CppMove newMove = new CppMove(moveName.substring(0,moveName.length()-4));
+                move = newMove.makeMove(GAME.gameBoard);
+                break;}
         }
         if(move == null)
         {

@@ -14,7 +14,7 @@ public class CppFileFilter implements FilenameFilter {
      */
     @Override
     public boolean accept(File dir, String name) {
-        if(name.endsWith(".cpp")||name.endsWith(".c"))return true;
+        if(name.endsWith(".dll"))return true;
         return false;
     }
 }
