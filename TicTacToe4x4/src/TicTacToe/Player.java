@@ -10,11 +10,11 @@ public class Player {
         int column = -1;
         int row = -1;
         while(column>3 || column<0) {
-            System.out.print("It is your turn. Please type field column: ");
+            System.out.print("It is your turn. Please type field row: ");
             column = sc.nextInt();
         }
         while(row>3 || row<0) {
-            System.out.print("\nNow type row number: ");
+            System.out.print("\nNow type column number: ");
             row = sc.nextInt();
         }
         int move[]=new int[2];

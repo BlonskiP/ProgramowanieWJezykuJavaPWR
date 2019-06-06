@@ -28,6 +28,7 @@ public class AIBrain {
                 String moveName= allAIScripts.get(x).name;
                 CppMove newMove = new CppMove(moveName.substring(0,moveName.length()-4));
                 move = newMove.makeMove(GAME.gameBoard);
+
                 break;}
         }
         if(move == null)
@@ -36,6 +37,7 @@ public class AIBrain {
             System.out.println("This script doesn't have moveTick function!");
             return AIBrain.makeMove();
         }
+        System.out.println("Computer move: row: " + move[0] +"colm: "+ move[1]);
         return move;
     }
     public static int[] getMoveScript() throws FileNotFoundException, ScriptException {

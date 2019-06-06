@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="JNLPExample.jnlp">
+ 
+     <information>
+          <title>Lab03</title>
+          <vendor>Blonski</vendor>
+          <homepage href="http://localhost:8080/" />
+          <description>JNLP Testing</description>
+     </information>
+ 
+     <security>
+          <all-permissions/>
+     </security>
+ 
+     <resources>
+          <j2se version="1.6+" />
+          <jar href="lab03.jar" />
+     </resources>
+ 
+     <application-desc main-class="GUI.GUI" />
+</jnlp>

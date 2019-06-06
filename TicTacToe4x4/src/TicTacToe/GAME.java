@@ -55,11 +55,12 @@ public class GAME {
         {
             int i=1;
             if(gameBoard[i][k]!=' ')
-            if(gameBoard[i+1][k]==gameBoard[i][k] && gameBoard[i+1][k]==gameBoard[i][k]){
+            if(gameBoard[i+1][k]==gameBoard[i][k] && gameBoard[i-1][k]==gameBoard[i][k]){
                 return true;
             }
+            i++;
             if(gameBoard[i][k]!=' ')
-            if(gameBoard[i+1][k]==gameBoard[i][k] && gameBoard[i+1][k]==gameBoard[i][k]){
+            if(gameBoard[i+1][k]==gameBoard[i][k] && gameBoard[i-1][k]==gameBoard[i][k]){
                 return true;
             }
         }
@@ -84,18 +85,24 @@ public class GAME {
         while(!win)
         {
             clearScreen();
-            while (!acceptMove(AIBrain.makeMove(),AIBrain.symbol) && !win);
-            if(win = checkBoardForWin())
-            {
-                System.out.print("Winner is " + AIBrain.symbol);
-            }
-            clearScreen();
+
             while (!acceptMove(Player.makeMove(),Player.symbol) && !win);
+            clearScreen();
             if(win = checkBoardForWin())
             {
-                System.out.print("Winner is " + Player.symbol);
+                System.out.println("Winner is " + Player.symbol);
+                break;
             }
+            while (!acceptMove(AIBrain.makeMove(),AIBrain.symbol) && !win);
+            clearScreen();
+            if(win = checkBoardForWin())
+            {
+                System.out.println("Winner is " + AIBrain.symbol);
+                break;
+            }
+
         }
+        clearScreen();
     }
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
