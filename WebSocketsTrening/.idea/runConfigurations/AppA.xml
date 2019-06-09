@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AppA" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="App.Main" />
+    <module name="WebSocketsTrening" />
+    <option name="PROGRAM_PARAMETERS" value="AppA 5000 5001 localhost" />
+    <method v="2" />
+  </configuration>
+</component>

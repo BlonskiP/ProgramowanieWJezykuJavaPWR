@@ -67,13 +67,20 @@ public class JavaScriptManager {
         }
     }
     public static int[] invokeScript(Script script) throws FileNotFoundException, ScriptException {
-        engine.eval(new FileReader(script.path.toString()));
+        String path = script.path.toString();
+        engine.eval(new FileReader(path));
         Invocable invocable = (Invocable) engine;
         Object move = new int[0];
         try {
-
-
-            move = ((Invocable) engine).invokeFunction("moveTick",GAME.gameBoard);
+            char[] convertedArr = new char[16];
+            for(int i=0;i<4;i++)
+            {
+                for(int j=0;j<4;j++)
+                {
+                    convertedArr[4*i+j]=GAME.gameBoard[i][j];
+                }
+            }
+            move = ((Invocable) engine).invokeFunction("moveTick",  convertedArr);
 
             return (int[])move;
         } catch (NoSuchMethodException e) {
