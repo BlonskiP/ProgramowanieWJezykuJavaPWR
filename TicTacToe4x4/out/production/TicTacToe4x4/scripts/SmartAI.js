@@ -26,8 +26,8 @@ function evaluate(b)
 
             if (b[i][k - 1] == b[i][k] && b[i][k + 1] == b[i][k])
             {
-                if (b[i][k] == AI){ return +10;}
-                else if (b[i][k] == HUMAN) {return -10;}
+                if (b[i][k] == AI){ return +100;}
+                else if (b[i][k] == HUMAN) {return -100;}
             }
 
             k++;
@@ -35,8 +35,8 @@ function evaluate(b)
 
                 if (b[i][k - 1] == b[i][k] && b[i][k + 1] == b[i][k])
                 {
-                    if (b[i][k] == AI) {return +10}
-                    else if (b[i][k] == HUMAN) {return -10}
+                    if (b[i][k] == AI) {return +100}
+                    else if (b[i][k] == HUMAN) {return -100}
                 }
         }
     }
@@ -48,14 +48,14 @@ function evaluate(b)
 
         if (b[i][k] != ' ')
             if (b[i + 1][k] == b[i][k] && b[i - 1][k] == b[i][k]) {
-                if (b[i][k] == AI){ return +10}
-                else if (b[i][k] == HUMAN) {return -10}
+                if (b[i][k] == AI){ return +100}
+                else if (b[i][k] == HUMAN) {return -100}
             }
         i++;
         if (b[i][k] != ' ')
             if (b[i + 1][k] == b[i][k] && b[i - 1][k] == b[i][k]) {
-                if (b[i][k] == AI) {return +10}
-                else if (b[i][k] == HUMAN) {return -10}
+                if (b[i][k] == AI) {return +100}
+                else if (b[i][k] == HUMAN) {return -100}
             }
     }
 
@@ -65,11 +65,11 @@ function evaluate(b)
         {
             if (b[i][k] != ' ') {
                 if (b[i - 1][k - 1] == b[i][k] && b[i + 1][k + 1] == b[i][k])
-                    if (b[i][k] == AI) {return +10}
-                    else if (b[i][k] == HUMAN){return -10}
+                    if (b[i][k] == AI) {return +100}
+                    else if (b[i][k] == HUMAN){return -100}
                 if (b[i - 1][k + 1] == b[i][k] && b[i + 1][k - 1] == b[i][k])
-                    if (b[i][k] == AI){ return +10}
-                    else if (b[i][k] == HUMAN) {return -10}
+                    if (b[i][k] == AI){ return +100}
+                    else if (b[i][k] == HUMAN) {return -100}
             }
         }
     }
@@ -84,19 +84,19 @@ function minimax(board, depth, isMax)
 
     // If Maximizer has won the game return his/her
     // evaluated score
-    if (score == 10)
+    if (score > 0)
         return score;
 
     // If Minimizer has won the game return his/her
     // evaluated score
-    if (score == -10)
+    if (score < 0)
         return score;
 
     // If there are no more moves and no winner then
     // it is a tie
     if (isMovesLeft(board) == false)
         return 0;
-
+    if(depth>4)return score;
     // If this maximizer's move
     if (isMax)
     {
@@ -116,7 +116,7 @@ function minimax(board, depth, isMax)
                     // Call minimax recursively and choose
                     // the maximum value
                     best = Math.max(best, minimax(board, depth + 1, !isMax));
-
+                    best = best - depth;
                     // Undo the move
                     board[i][j] = ' ';
                 }
@@ -144,7 +144,7 @@ function minimax(board, depth, isMax)
                     // Call minimax recursively and choose
                     // the minimum value
                     best = Math.min(best,minimax(board, depth + 1, !isMax));
-
+                    best = best + depth;
                     // Undo the move
                     board[i][j] = ' ';
                 }

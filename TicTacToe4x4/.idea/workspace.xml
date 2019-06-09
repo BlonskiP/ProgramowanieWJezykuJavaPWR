@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7c68fd-a296-4b1b-b0a3-a1290a025884" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/TicTacToe4x4_jar/TicTacToe4x4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TicTacToe4x4_jar/TicTacToe4x4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe4x4/TicTacToe/JavaScriptManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe4x4/TicTacToe/JavaScriptManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/TicTacToe_CppMove.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/TicTacToe_CppMove.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/stupidAI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/stupidAI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/JavaScriptManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/JavaScriptManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/JavaScriptManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="408">
+              <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#updateScripts#0;class#JavaScriptManager#0" />
@@ -58,25 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/CppScriptManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="108">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js">
+        <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="117" column="22" lean-forward="true" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-              <folding>
-                <element signature="e#55#111#0" />
-                <element signature="n#!!block;n#isMovesLeft#0" />
-                <element signature="n#!!block;n#evaluate#0" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -84,10 +77,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/AIBrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="227">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+              <folding>
+                <element signature="n#!!block;n#isMovesLeft#0" />
+                <element signature="n#!!block;n#evaluate#0" />
+                <element signature="n#!!block;n#findBestMove#0" />
+                <element signature="n#!!block;n#moveTick#0" />
               </folding>
             </state>
           </provider>
@@ -112,6 +120,8 @@
       <find>print</find>
       <find>minimax</find>
       <find>depth</find>
+      <find>invok</find>
+      <find>+10</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,12 +139,12 @@
         <option value="$PROJECT_DIR$/src/TicTacToe/CppFileFilter.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/CppMove.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Player.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/AIBrain.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/GAME.java" />
         <option value="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/stupidAI.cpp" />
         <option value="$PROJECT_DIR$/src/TicTacToe/JavaScriptManager.java" />
-        <option value="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js" />
         <option value="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/AIBrain.java" />
+        <option value="$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js" />
       </list>
     </option>
   </component>
@@ -174,14 +184,6 @@
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="TicTacToe4x4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TicTacToe4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TicTacToe4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="TicTacToe4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TicTacToe4x4" type="b2602c69:ProjectViewProjectNode" />
@@ -253,16 +255,15 @@
       <updated>1559748970323</updated>
       <workItem from="1559748979842" duration="32135000" />
       <workItem from="1559807581708" duration="10764000" />
-      <workItem from="1560074095807" duration="2857000" />
+      <workItem from="1560074095807" duration="4553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45756000" />
+    <option name="totallyTimeSpent" value="47452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -273,7 +274,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34042552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33387887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,9 +341,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js</url>
-          <line>18</line>
+          <line>81</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -403,16 +404,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/demo.js" />
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/CppScriptManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -443,16 +434,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/TicTacToe/Script.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/AIBrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/CppMove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -472,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/JavaScriptManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="408">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#updateScripts#0;class#JavaScriptManager#0" />
@@ -484,14 +465,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/CppScriptManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="117" column="22" lean-forward="true" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+        <state relative-caret-position="108">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#55#111#0" />
-            <element signature="n#!!block;n#isMovesLeft#0" />
-            <element signature="n#!!block;n#evaluate#0" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/AIBrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,7 +488,20 @@
     <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/StupidAI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/TicTacToe4x4/scripts/SmartAI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="n#!!block;n#isMovesLeft#0" />
+            <element signature="n#!!block;n#evaluate#0" />
+            <element signature="n#!!block;n#findBestMove#0" />
+            <element signature="n#!!block;n#moveTick#0" />
+          </folding>
         </state>
       </provider>
     </entry>
