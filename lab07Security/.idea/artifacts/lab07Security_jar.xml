@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="lab07Security:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab07Security_jar</output-path>
+    <root id="archive" name="lab07Security.jar">
+      <element id="module-output" name="lab07Security" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/KanpsackPacage/KnapsackProblemSolutions.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,31 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: l5SU+f1nwIhlcsNZecERNESzi+u/w
+ 8tZAaQPpG7k3as=
+SHA-256-Digest-Manifest: ViKE1Pmrye5tV8CLoG9T1msMV/ZYFDeaHqItMuJHl8o=
+Created-By: 1.8.0_181 (Oracle Corporation)
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.class
+SHA-256-Digest: ycoo6QYoCy6dSSKfTtsCj6kEq9SxLbpbQ8KOg4lPt70=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorit
+ hm.class
+SHA-256-Digest: 7ih239uMR4QDvzkzu8P3g4+XR/TpJ1BZxSeC9/0V3aA=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackRSearchAlgorit
+ hm.class
+SHA-256-Digest: h1wIWEFS8w4nviTz0UxmEA8jI12M5eC9iVQI3rr88rw=
+
+Name: KnapsackProblem/Item.class
+SHA-256-Digest: pr3ta42t2CcbX52c38oN70Y8ls2x5xWUo+qmMaa+5Fw=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.
+ class
+SHA-256-Digest: zx6ewnHa6qRJ5a+OgE54wJT4iQODvybxhGIQbe1LZWA=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackBForceAlgorith
+ m.class
+SHA-256-Digest: LzawVf2DMNfrwuPGaqd9v5ObhP/6wOq0j0P39KbDZfE=
+
+Name: Tester.class
+SHA-256-Digest: G2x9hEhRNvQabptSpgvYq5YoXTm3EDkBvx1RIXW8yOc=
+

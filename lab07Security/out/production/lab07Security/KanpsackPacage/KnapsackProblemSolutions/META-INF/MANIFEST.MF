@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Main-Class: Tester
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/InstanceProblem.class
+SHA-256-Digest: 4zUT9ls5VTiseZfwZn8ZShEOcaEDAvPeWf6bzdHF4DU=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingAlgorit
+ hm.class
+SHA-256-Digest: CjSj3pUQM8wSCXhvlV/It2HcO5RLpeUYJP0zYLWunas=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackRSearchAlgorit
+ hm.class
+SHA-256-Digest: RVadA3uobRnCN0u/2AOmN+TDMxlqgeDaOpKrdAozcpY=
+
+Name: KnapsackProblem/Item.class
+SHA-256-Digest: iXTsiCzfwwHoylJA0hDgNz6PK8VfwxgNnF3qOb1Bvgg=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackSolvingResult.
+ class
+SHA-256-Digest: yVJ1jcOnSAA5Q25jf4SMyn+I9FDYjR06W1277CQGwtU=
+
+Name: KnapsackProblem/KnapsackSolvingAlgorithms/KnapsackBForceAlgorith
+ m.class
+SHA-256-Digest: 5QtUnsfbkQPE8RDoeMfVaVR6o17JiycEWSaN9eSpvVU=
+
+Name: Tester.class
+SHA-256-Digest: ghzCo0WhN2ZQKC8F3m2LVRffVTN0LtRwA9Uw4MDkHF4=
+
