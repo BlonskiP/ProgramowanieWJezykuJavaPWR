@@ -16,7 +16,7 @@ public class SystemConfig implements SystemConfigMBean  {
 
     @Override
     public void setMapSize(int size) {
-        ResultStorage.size=size;
+        ResultStorage.changeSize(size);
     }
 
     @Override
@@ -40,6 +40,9 @@ public class SystemConfig implements SystemConfigMBean  {
         String size = "Storage Size is: " + getMapSize() + "\n";
         String records = "There is " + ResultStorage.resultList.size() + "Records" + "\n";
         String ratio = "Hit&Kill ration is " +((double)ResultStorage.found/(double)ResultStorage.notfound)+" ratio" + "\n";
-        return threads + size + records + ratio;
+        String all = "There were " + ResultStorage.steps + " results" + "\n";
+        String notfound = "There was: " + ResultStorage.notfound + "not founds" + "\n";
+        String procent = "There was " + ResultStorage.notfound/ResultStorage.steps +"% of misses" + "\n";
+        return threads + size + records +all+  notfound + procent +ratio;
     }
 }

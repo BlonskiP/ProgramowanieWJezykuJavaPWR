@@ -7,7 +7,7 @@ import static java.lang.Math.abs;
 public class Main {
     static Random generator = new Random();
     static int numberOfThreads=20;
-    static int seedRange=100;
+    static int seedRange=900;
     public static void main(String[] args) throws MalformedObjectNameException, NotCompliantMBeanException, InstanceAlreadyExistsException, MBeanRegistrationException {
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
         SystemConfig mBean = new SystemConfig(numberOfThreads, ResultStorage.size);
